@@ -1,8 +1,6 @@
-package com.firz.myapplication;
+package com.firz.suhu;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,9 +9,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-
-    int count = 0;
-    TextView displayText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,21 +20,5 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-        load();
-    }
-
-    public void load(){
-        displayText = findViewById(R.id.displayText);
-    }
-
-    public void btnDown(View view) {
-        count--;
-        displayText.setText(count + "");
-    }
-
-    public void btnUp(View view) {
-        count++;
-        displayText.setText(count + "");
     }
 }

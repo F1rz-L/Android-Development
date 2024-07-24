@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textSize="100sp" />
+
+    <EditText
+        android:id="@+id/bil1"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/bil2"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <android.widget.Button
+        android:id="@+id/btnjumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#673AB7"
+        android:onClick="jumlah"
+        android:text="@string/jumlah" />
+
+    <android.widget.Button
+        android:id="@+id/btnkurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3F51B5"
+        android:onClick="kurang"
+        android:text="@string/kurang" />
+
+    <android.widget.Button
+        android:id="@+id/btnkali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#2196F3"
+        android:onClick="kali"
+        android:text="@string/kali" />
+
+    <android.widget.Button
+        android:id="@+id/btnbagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#03A9F4"
+        android:onClick="bagi"
+        android:text="@string/bagi" />
+
+</LinearLayout>
