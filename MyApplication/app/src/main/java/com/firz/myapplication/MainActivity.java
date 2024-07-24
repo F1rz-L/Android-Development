@@ -21,9 +21,11 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        tampil();
+
     }
     
     public void tampil(){
-        System.out.println("Belajar Android");
+        System.out.println("Bela jar Android");
     }
 }
