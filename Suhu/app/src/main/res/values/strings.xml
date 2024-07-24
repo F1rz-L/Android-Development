@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Suhu</string>
+    <string-array name="satuanSuhu">
+        <item>Celcius to Reamur</item>
+        <item>Celcius to Fahrenheit</item>
+        <item>Celcius to Kelvin</item>
+    </string-array>
 </resources>
