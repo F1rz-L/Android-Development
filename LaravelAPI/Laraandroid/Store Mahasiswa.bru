@@ -1,0 +1,20 @@
+meta {
+  name: Store Mahasiswa
+  type: http
+  seq: 2
+}
+
+post {
+  url: 127.0.0.1:8000/api/mahasiswa
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  namamahasiswa: Muhammad Nando Akbar
+  nim: 312021008
+  alamat: Seruun
+  gender: Lelaki
+  agama: Syia
+  usia: 30
+}

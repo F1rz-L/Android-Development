@@ -1,0 +1,21 @@
+meta {
+  name: Get Mahasiswa
+  type: http
+  seq: 1
+}
+
+get {
+  url: 127.0.0.1:8000/api/mahasiswa
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  namamahasiswa: AAAA
+  nim: 312021006
+  alamat: aaaa
+  gender: Lelaki
+  agama: Sunni
+  usia: 31
+  image: @file(C:\Users\LENOVO\Pictures\Screenshots\Screenshot 2024-06-18 182752.png)
+}
